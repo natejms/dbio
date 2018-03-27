@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "natejms",
-  "license": "BSD3",
+  "license": "BSD-3-Clause",
   "devDependencies": {
     "browserify": "^13.1.1",
     "ipfs-api": "^11.1.0",
