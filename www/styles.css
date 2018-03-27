@@ -1,0 +1,67 @@
+body {
+  color: #2c3e50;
+}
+
+.jumbotron {
+  background-color: #3498db;
+  height: 200px;
+  padding: 20px;
+}
+
+.jumbotron h1 {
+  text-align: center;
+}
+
+.form {
+  padding-top: 40px;
+
+  padding-bottom: 60px;
+}
+
+.form-inner {
+  width: 500px;
+  max-width: 90%;
+  margin: 0 auto
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black
+}
+
+input[type=submit] {
+  border-bottom: none;
+  background-color: #3498db;
+  color: #2c3e50;
+  font-weight: bold
+}
+
+.two-inputs > input {
+  width: 49%
+}
+
+.two-inputs > input:last-child {
+  margin-left: 5px
+}
+
+.about {
+  background-color: #ecf0f1;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-size: 1.5em
+}
+
+.about h2 {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.footer {
+  padding-top: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #34495e;
+  color: #ecf0f1
+}

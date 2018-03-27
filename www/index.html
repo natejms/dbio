@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>dbio</title>
+    <link rel="stylesheet" href="https://ipfs.io/ipfs/QmPEJx9Bur2NNDPtBNT5zQ6bBnCkgYtKeNBAWRXx4j5hf2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="page_home">
+      <div class="jumbotron">
+        <h1>
+          dbio - decentralized profiles
+        </h1>
+      </div>
+
+      <div class="container form">
+        <div class="form-inner">
+          <form action="#">
+            <div id="elm"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <div class="container">
+        <h2>What is dbio?</h2>
+        <p>
+          Dbio is a simple tool, similar to about.me, that you can use to share
+          your bio. Unlike about.me, dbio users don't have to trust a central
+          server: all the content you publish is added to IPFS - the permanet
+          web. You seed your own bio from your own IPFS node.
+        </p>
+
+        <p>
+          By the way, you can only publish to writeable nodes. Make sure the
+          gateway you're using is writeable!
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <p>&#169; 2018 natejms</p>
+      </div>
+    </div>
+
+    <script src="elm.js"></script>
+    <script src="bundle.js"></script>
+  </body>
+</html>

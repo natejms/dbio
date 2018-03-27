@@ -1,0 +1,19 @@
+{
+  "name": "dbio",
+  "version": "1.0.0",
+  "description": "Share your bio via IPFS",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server www -a 127.0.0.1 -p 3000",
+    "build": "browserify js/index.js > www/bundle.js && elm make src/Publish.elm --output=www/elm.js && elm make src/Retrieve.elm --output=www/u/elm.js"
+  },
+  "keywords": [],
+  "author": "natejms",
+  "license": "BSD3",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "ipfs-api": "^11.1.0",
+    "http-server": "^0.9.0",
+    "elm": "^0.18.0"
+  }
+}
